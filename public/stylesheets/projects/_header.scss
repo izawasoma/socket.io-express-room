@@ -1,0 +1,19 @@
+@import "../variables";
+.p_header{
+    background-color: $main_color;
+    padding: 0 20px 0 0;
+}
+.p_header__logo{
+    padding-bottom: 10px;
+    img{
+        width: 150px;
+    }
+}
+.p_header__timer{
+    color: #fff;
+    font-weight: 500;
+}
+.p_header__timernum{
+    font-size: 30px;
+    font-weight: 600;
+}

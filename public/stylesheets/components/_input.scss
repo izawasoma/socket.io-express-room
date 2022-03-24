@@ -1,0 +1,11 @@
+@import "../variables";
+.c_input{
+    border: 1px solid #000;
+    padding: 8px;
+    &:focus{
+        border-color: $main_color;
+    }
+}
+.c_input--text{
+    @extend .c_input;
+}

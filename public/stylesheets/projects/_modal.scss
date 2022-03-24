@@ -1,0 +1,52 @@
+.p_modal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: none;
+    animation: fadein 0.5s forwards;
+    img{
+        width: 295px;
+    }
+}
+.shown{
+    display: flex;
+}
+.close{
+    animation: fadeout 0.5s forwards;
+}
+.p_modal__close{
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    color: #fff;
+    font-size: 40px !important;
+    font-weight: 900;
+}
+@keyframes fadein {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+@keyframes fadeout {
+    0%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+.p_modal--info{
+    @extend .p_modal;
+}
+.p_modal--correct{
+    @extend .p_modal;
+}

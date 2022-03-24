@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheets/style.css">
+    <!-- Google icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+    <title>【リアル脱出ゲーム】ひねくれた追試からの脱出</title>
+</head>
+<body>
+    <div class="p_main">
+        <!-- ヘッダー -->
+        <div class="l_header p_header">
+            <div class="p_header__logo"><img src="img/material/logo.svg" alt=""></div>
+            <div class="p_header__timer u_pr5"></div>
+        </div>
+        <!-- 謎の表示されるエリア -->
+        <div class="l_content p_content">
+            <div class="p_content__question_container">
+                <span class="p_content__question_text"> s</span>
+                <span class="material-icons p_content__info">collections</span>
+            </div>
+            <div class="p_content__nazo_container">
+                <img class="p_content__nazo_image" src="img/question/2.png" alt="">
+                <img class="p_content__nazo_image" src="img/question/2.png" alt="">
+            </div>
+            <div class="p_content__form ">
+                <input class="c_input--text u_w100p" type="text" name="">
+                <button id="answer_button" class="c_button--prime">解答する</button>
+            </div>
+        </div>
+        <!-- ページャー -->
+        <div class="l_nav p_nav">
+            <div class="p_nav__item">1</div>
+            <div class="p_nav__item">2</div>
+            <div class="p_nav__item--active">3</div>
+            <div class="p_nav__item">4</div>
+            <div class="p_nav__item--disabled">5</div>
+            <div class="p_nav__item--disabled">6</div>
+            <div class="p_nav__item--disabled">7</div>
+        </div>
+
+    </div>
+
+    <div class="p_modal--info">
+        <span class="material-icons p_modal__close">close</span>
+        <img class="p_modal--info__image" src="img/question/7-2.png" alt="">
+    </div>
+
+
+    <div class="p_modal--correct">
+        <img class="p_modal--correct__image" src="" alt="">
+        <img class="p_modal--correct__image" src="" alt="">
+    </div>
+
+    <script src="js/jquery-2.0.2.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

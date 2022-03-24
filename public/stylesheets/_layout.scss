@@ -1,0 +1,22 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.l_header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.l_content{
+    padding: 20px;
+}
+.l_nav{
+    position: fixed;
+    bottom: 0;
+}
